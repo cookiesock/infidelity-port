@@ -23,7 +23,7 @@ function postCreate() {
 	timeTxt.borderSize = 3;
 	timeTxt.screenCenter(FlxAxes.X);
 
-	timeBar = new FlxBar(timeBarBG.x + 12, timeBarBG.y + 5, FlxBarFillDirection.LEFT_TO_RIGHT, Std.int(timeBarBG.width - 24), 13, null, '', 0, 1);
+	timeBar = new FlxBar(timeBarBG.x + 5, timeBarBG.y + 5, FlxBarFillDirection.LEFT_TO_RIGHT, Std.int(timeBarBG.width - 10), 13, null, '', 0, 1);
 	timeBar.scrollFactor.set();
 	timeBar.createFilledBar(0xFF000000, 0xFFFFFFFF);
 	timeBar.numDivisions = 80000;
@@ -89,6 +89,9 @@ function update(elapsed:Float) {
 }
 
 function onPlayerHit(event:NoteHitEvent) {
+	// im not putting the ratings and shit on the hud. if i ever do that i need someone to kill me
+	event.ratingScale = 0;
+	event.numScale = 0;
 	if (!event.note.isSustainNote) {
 		switch (event.rating) {
 			case 'sick': sicks++;

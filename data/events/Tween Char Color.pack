@@ -1,0 +1,25 @@
+Tween Char Color.hx________PACKSEP________function onEvent(_)
+    if (_.event.name == 'Tween Char Color') {
+        for (char in strumLines.members[_.event.params[0]].characters)
+            FlxTween.color(char, Std.parseFloat(_.event.params[1]), _.event.params[2], _.event.params[3], {ease: FlxEase.circInOut});
+    }________PACKSEP________{
+	"params": [
+		{
+			"name": "Character",
+			"type": "StrumLine",
+			"defaultValue": 0
+		}, {
+			"name": "Time",
+			"type": "String",
+			"defaultValue": "0"
+		}, {
+			"name": "From",
+			"type": "ColorWheel",
+			"defaultValue": "#FFFFFF"
+		}, {
+			"name": "To",
+			"type": "ColorWheel",
+			"defaultValue": "#000000"
+		}
+	]
+}________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+cFFBIDO1WKA9sAAABsSURBVCjPrZDNGYAwCENf/LqL3X8anQYPpX+0epJTSQIJlVFL/QmYAiqbeOSS1HX3JDBkJt8guxzOAJTuRJgOQlXvWqmANUqkW4aVCIIhvefJPnZEOqZJX9OwbFhveRHsTVs73rTNUD75L4sHOpMo02PY4u0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDUtMjBUMTg6MDM6MjArMDA6MDCxTFiqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA1LTIwVDE4OjAzOjIwKzAwOjAwwBHgFgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wNS0yMFQxODowMzo1OSswMDowMAhZjQMAAAAASUVORK5CYII=

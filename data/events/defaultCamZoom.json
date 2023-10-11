@@ -1,0 +1,14 @@
+{
+	"params": [
+		{
+			"name": "Value",
+			"type": "String",
+			"defaultValue": "0"
+		},
+        {
+            "name": "Character",
+            "type": "DropDown('Boyfriend', 'Girlfriend', 'Dad', 'All')",
+            "defValue": "Dad"
+        }
+	]
+}

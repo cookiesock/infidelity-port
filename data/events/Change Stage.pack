@@ -1,0 +1,41 @@
+Change Stage.hx________PACKSEP________if (FlxG.save.data.noevents) disableScript();
+
+import funkin.game.Stage;
+var preloadedStages = [];
+
+function postCreate() {
+	for (event in events) {
+		if (event.name == 'Change Stage') {
+			var newstage = new Stage(event.params[0]);
+			add(newstage);
+			for (spr in newstage.stageSprites) {
+				spr.alpha = 0.001;
+				remove(spr);
+				insert(0, spr);
+			}
+			preloadedStages.push(newstage);
+		}
+	}
+}
+
+function onEvent(_) {
+	if (_.event.name == 'Change Stage') {
+		var stuff = preloadedStages.pop();
+		for (spr in stage.stageSprites) remove(spr);
+		for (spr in stuff.stageSprites) spr.alpha = 1;
+		stage = stuff;
+		if (_.event.params[1] != false) for (sl in strumLines.members) for (char in sl.characters) stage.applyCharStuff(char, sl.data.position, 1);
+	}
+}________PACKSEP________{
+	"params": [
+		{
+			"name": "Stage Name",
+			"type": "String",
+			"defaultValue": "stage"
+		}, {
+			"name": "Change Character Positions",
+			"type": "Bool",
+			"defaultValue": true
+		}
+	]
+}________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+cFFBIDO1WKA9sAAABsSURBVCjPrZDNGYAwCENf/LqL3X8anQYPpX+0epJTSQIJlVFL/QmYAiqbeOSS1HX3JDBkJt8guxzOAJTuRJgOQlXvWqmANUqkW4aVCIIhvefJPnZEOqZJX9OwbFhveRHsTVs73rTNUD75L4sHOpMo02PY4u0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDUtMjBUMTg6MDM6MjArMDA6MDCxTFiqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA1LTIwVDE4OjAzOjIwKzAwOjAwwBHgFgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wNS0yMFQxODowMzo1OSswMDowMAhZjQMAAAAASUVORK5CYII=

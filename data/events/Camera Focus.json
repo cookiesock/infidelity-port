@@ -1,0 +1,17 @@
+{
+	"params": [
+		{
+			"name": "X",
+			"type": "String",
+			"defaultValue": "0"
+		}, {
+			"name": "Y",
+			"type": "String",
+			"defaultValue": "0"
+		}, {
+			"name": "Lock",
+			"type": "Bool",
+			"defaultValue": true
+		}
+	]
+}

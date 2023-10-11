@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- made with inky's character editor -->
+<character x="-95" camx="-120" icon="mouse" y="65" scale="1" camy="30" color="#525951" flipX="false" holdTime="5" shake="true">
+	<anim x="46.667" loop="false" y="-49.333" fps="24" anim="smiler mouse down" name="singDOWN"/>
+	<anim x="110.5" loop="false" y="156" fps="24" anim="smiler mouse left" name="singLEFT"/>
+	<anim x="35.167" loop="false" y="64" fps="24" anim="smiler mouse rigth" name="singRIGHT"/>
+	<anim x="109.833" loop="false" y="125.833" fps="24" anim="smiler mouse up" name="singUP"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="smiler mouse idle" name="idle"/>
+</character>

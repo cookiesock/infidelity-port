@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.0.4 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="texture.png" width="3572" height="3751">
+	<SubTexture name="smile mouse rigth0008" x="3" y="3" width="527" height="640" frameX="-2" frameY="-0" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse left0006" x="536" y="3" width="503" height="667" frameX="-3" frameY="-3" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse rigth0003" x="3" y="649" width="524" height="640" frameX="-3" frameY="-0" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse rigth0007" x="533" y="676" width="523" height="640" frameX="-6" frameY="-0" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse left0007" x="1045" y="3" width="503" height="661" frameX="-1" frameY="-1" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse left0005" x="3" y="1295" width="504" height="658" frameX="-2" frameY="-8" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse rigth0004" x="513" y="1322" width="515" height="640" frameX="-7" frameY="-0" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse rigth0005" x="1034" y="1322" width="514" height="640" frameX="-7" frameY="-0" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse rigth0006" x="1062" y="670" width="512" height="640" frameX="-9" frameY="-0" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse left0003" x="1554" y="3" width="500" height="654" frameX="-11" frameY="-12" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse rigth0001" x="1554" y="1316" width="515" height="631" frameX="-5" frameY="-9" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse left0002" x="3" y="1959" width="494" height="657" frameX="-29" frameY="-9" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse rigth0002" x="1554" y="1953" width="510" height="631" frameX="-8" frameY="-9" frameWidth="529" frameHeight="643"/>
+	<SubTexture name="smile mouse left0004" x="503" y="1968" width="485" height="655" frameX="-29" frameY="-12" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse left0001" x="994" y="1968" width="480" height="658" frameX="-36" frameY="-9" frameWidth="526" frameHeight="673"/>
+	<SubTexture name="smile mouse up0006" x="2070" y="1953" width="509" height="606" frameX="-1" frameY="-14" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0003" x="1580" y="663" width="497" height="619" frameX="-7" frameY="-0" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0004" x="2075" y="1288" width="501" height="607" frameX="-5" frameY="-13" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0005" x="2060" y="3" width="501" height="606" frameX="-5" frameY="-14" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0002" x="2083" y="615" width="500" height="606" frameX="-5" frameY="-12" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0007" x="2582" y="1227" width="496" height="608" frameX="-7" frameY="-12" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0008" x="2585" y="1841" width="493" height="608" frameX="-9" frameY="-12" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse up0001" x="2567" y="3" width="492" height="606" frameX="-9" frameY="-12" frameWidth="513" frameHeight="622"/>
+	<SubTexture name="smile mouse idle0008" x="2589" y="615" width="484" height="604" frameX="-1" frameY="-7" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0001" x="3" y="2622" width="477" height="607" frameX="-12" frameY="-4" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0005" x="486" y="2629" width="458" height="615" frameX="-27" frameY="-0" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0006" x="2585" y="2455" width="472" height="596" frameX="-16" frameY="-15" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0007" x="2070" y="2565" width="472" height="592" frameX="-11" frameY="-19" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0002" x="1480" y="2590" width="463" height="598" frameX="-22" frameY="-14" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0004" x="950" y="2632" width="453" height="604" frameX="-30" frameY="-7" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse idle0003" x="3065" y="3" width="461" height="592" frameX="-22" frameY="-19" frameWidth="492" frameHeight="618"/>
+	<SubTexture name="smile mouse down0010" x="3063" y="2455" width="506" height="506" frameX="-9" frameY="-1" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0007" x="3063" y="2967" width="505" height="506" frameX="-9" frameY="-1" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0009" x="1949" y="3163" width="512" height="495" frameX="-3" frameY="-6" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0006" x="1409" y="3194" width="506" height="499" frameX="-7" frameY="-8" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0008" x="2467" y="3163" width="508" height="495" frameX="-6" frameY="-6" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0005" x="3" y="3250" width="500" height="498" frameX="-2" frameY="-9" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0003" x="3079" y="601" width="483" height="489" frameX="-5" frameY="-19" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0004" x="509" y="3250" width="483" height="489" frameX="-13" frameY="-19" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0001" x="3084" y="1096" width="470" height="499" frameX="-0" frameY="-10" frameWidth="532" frameHeight="512"/>
+	<SubTexture name="smile mouse down0002" x="3084" y="1601" width="471" height="491" frameX="-4" frameY="-14" frameWidth="532" frameHeight="512"/>
+</TextureAtlas>

@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-character> <!-- made with inky's character editor -->
+<character x="-50" camx="0" icon="bf" y="440" scale="1.2" camy="0" flipX="true" isPlayer="true" holdTime="4" color="#7d808e">
+	<anim loop="false" x="-8" anim="BF idle dance" fps="24" y="20" name="idle"/>
+	<anim loop="false" x="5" anim="BF NOTE LEFT MISS" fps="24" y="45" name="singLEFTmiss"/>
+	<anim loop="false" x="-42" anim="BF NOTE DOWN MISS" fps="24" y="27" name="singDOWNmiss"/>
+	<anim loop="false" x="-32" anim="BF NOTE UP MISS" fps="24" y="62" name="singUPmiss"/>
+	<anim loop="false" x="-87" anim="BF NOTE RIGHT MISS" fps="24" y="84" name="singRIGHTmiss"/>
+	<anim loop="false" x="27" anim="BF dies" fps="24" y="-2" name="firstDeath"/>
+	<anim loop="true" x="-65" anim="BF Dead Loop" fps="24" y="-4" name="deathLoop"/>
+	<anim loop="false" x="-7" anim="BF H" fps="24" y="35" name="hey"/>
+	<anim loop="false" x="-25" anim="BF NOTE UP0" fps="24" y="31" name="singUP"/>
+	<anim loop="false" x="-83" anim="BF NOTE RIGHT0" fps="24" y="25" name="singRIGHT"/>
+	<anim loop="false" x="5" anim="BF NOTE LEFT0" fps="24" y="25" name="singLEFT"/>
+	<anim loop="false" x="-55" anim="BF NOTE DOWN0" fps="24" y="-16" name="singDOWN"/>
+	<anim loop="false" x="19" anim="boyfriend dodge" fps="24" y="50" name="dodge"/>
+	<anim loop="false" x="-36" anim="BF Jeringa" fps="24" y="27" name="at"/>
+	<anim loop="true" x="-52" anim="BF Dead confirm" fps="24" y="-13" name="deathConfirm"/>
+</character>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.2 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bf-retro.png" width="3469" height="3648">
+	<SubTexture name="BF NOTE RIGHT MISS0003" x="1" y="1" width="326" height="415" frameX="-4" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0005" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0002" x="1" y="419" width="334" height="413" frameX="-0" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0004" x="338" y="419" width="330" height="413" frameX="-4" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0006" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="boyfriend dodge0003" x="1" y="835" width="407" height="373" frameX="-0" frameY="-4" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0004" x="991" y="1" width="407" height="378" frameX="-0" frameY="-0" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0005" x="991" y="382" width="407" height="377" frameX="-0" frameY="-1" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0001" x="671" y="762" width="404" height="380" frameX="-1" frameY="-0" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0002" x="1" y="1211" width="404" height="378" frameX="-1" frameY="-0" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="BF NOTE UP MISS0002" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0003" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF HEY!!0001" x="1401" y="1" width="382" height="360" frameX="-0" frameY="-0" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0005" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0003" x="1401" y="716" width="374" height="348" frameX="-0" frameY="-13" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF NOTE LEFT MISS0003" x="1186" y="1067" width="351" height="374" frameX="-0" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0002" x="1" y="1592" width="352" height="373" frameX="-0" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0004" x="356" y="1592" width="342" height="373" frameX="-7" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0005" x="701" y="1535" width="342" height="373" frameX="-7" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0006" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0007" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF Jeringa0003" x="1786" y="1" width="370" height="348" frameX="-22" frameY="-7" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF idle shaking0004" x="1786" y="352" width="370" height="346" frameX="-0" frameY="-0" frameWidth="373" frameHeight="348"/>
+	<SubTexture name="BF idle dance0007" x="1779" y="701" width="369" height="349" frameX="-1" frameY="-1" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0009" x="1778" y="1053" width="369" height="350" frameX="-1" frameY="-0" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle shaking0001" x="1726" y="1406" width="369" height="346" frameX="-1" frameY="-1" frameWidth="373" frameHeight="348"/>
+	<SubTexture name="BF idle shaking0002" x="1" y="1968" width="369" height="347" frameX="-1" frameY="-0" frameWidth="373" frameHeight="348"/>
+	<SubTexture name="BF idle shaking0003" x="373" y="1968" width="369" height="347" frameX="-0" frameY="-0" frameWidth="373" frameHeight="348"/>
+	<SubTexture name="BF NOTE UP0003" x="745" y="1911" width="368" height="352" frameX="-0" frameY="-7" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0005" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF idle dance0003" x="1726" y="1755" width="365" height="335" frameX="-0" frameY="-15" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0005" x="2159" y="1" width="365" height="339" frameX="-2" frameY="-11" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF Jeringa0001" x="2159" y="343" width="364" height="358" frameX="-4" frameY="-4" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF idle dance0001" x="2151" y="704" width="363" height="333" frameX="-1" frameY="-17" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF dies0001" x="2151" y="1040" width="361" height="312" frameX="-0" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF NOTE UP0001" x="2150" y="1355" width="360" height="359" frameX="-9" frameY="-0" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP MISS0001" x="2098" y="1717" width="359" height="359" frameX="-0" frameY="-28" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF Jeringa0005" x="1" y="2318" width="357" height="351" frameX="-1" frameY="-5" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF NOTE DOWN MISS0005" x="745" y="2266" width="340" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0007" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0003" x="1430" y="2267" width="340" height="355" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE RIGHT0005" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE DOWN MISS0004" x="2527" y="1" width="343" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0006" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE RIGHT0003" x="2517" y="715" width="325" height="354" frameX="-4" frameY="-2" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE DOWN MISS0002" x="2515" y="1072" width="344" height="353" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE LEFT0005" x="2513" y="1428" width="338" height="353" frameX="-11" frameY="-0" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE RIGHT MISS0001" x="2460" y="1784" width="328" height="353" frameX="-0" frameY="-62" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT0001" x="2423" y="2140" width="328" height="353" frameX="-0" frameY="-3" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE LEFT0001" x="361" y="2318" width="352" height="349" frameX="-0" frameY="-4" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT MISS0001" x="1" y="2672" width="351" height="349" frameX="-3" frameY="-16" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT0003" x="361" y="2670" width="342" height="351" frameX="-7" frameY="-2" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF dies0002" x="716" y="2625" width="346" height="312" frameX="-18" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF Jeringa0017" x="1065" y="2626" width="328" height="345" frameX="-6" frameY="-11" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0007" x="1396" y="2626" width="328" height="343" frameX="-1" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0009" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0023" x="2058" y="2437" width="341" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0019" x="2402" y="2496" width="340" height="342" frameX="-2" frameY="-14" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0018" x="2873" y="1" width="331" height="339" frameX="-3" frameY="-17" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0020" x="2873" y="343" width="323" height="338" frameX="-16" frameY="-17" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0024" x="2873" y="684" width="323" height="337" frameX="-16" frameY="-18" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF NOTE DOWN0003" x="2862" y="1024" width="332" height="306" frameX="-0" frameY="-6" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0005" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0001" x="2854" y="1638" width="329" height="312" frameX="-4" frameY="-0" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN MISS0001" x="2791" y="1953" width="325" height="323" frameX="-15" frameY="-33" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF Dead confirm0004" x="671" y="417" width="317" height="308" frameX="-1" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead Loop0003" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead confirm0003" x="2754" y="2279" width="313" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0005" x="2745" y="2590" width="312" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF dies0005" x="1" y="3024" width="275" height="312" frameX="-99" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0007" x="279" y="3024" width="277" height="312" frameX="-97" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0012" x="559" y="3024" width="270" height="312" frameX="-94" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0014" x="832" y="2974" width="267" height="312" frameX="-89" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF Dead Loop0002" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF dies0003" x="1363" y="2974" width="283" height="309" frameX="-101" frameY="-3" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0001" x="2058" y="2783" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0002" x="1727" y="2971" width="303" height="308" frameX="-8" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0006" x="2367" y="2841" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF dies0016" x="2676" y="2901" width="264" height="308" frameX="-87" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0018" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0038" x="3060" y="2590" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0039" x="3070" y="2279" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0040" x="3207" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0041" x="3207" y="1" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0042" x="3207" y="312" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0043" x="3199" y="623" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0044" x="3199" y="934" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0045" x="3197" y="1245" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0046" x="3197" y="1556" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0047" x="3119" y="1953" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0048" x="1" y="3339" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0049" x="265" y="3339" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0050" x="529" y="3339" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0051" x="793" y="3339" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0052" x="1057" y="3289" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0053" x="1321" y="3286" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0054" x="1585" y="3286" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0055" x="1849" y="3282" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0056" x="2113" y="3212" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0057" x="2377" y="3152" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0058" x="2641" y="3212" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0059" x="2905" y="3212" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF Dead Loop0001" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0004" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0005" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0009" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0013" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0017" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0021" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0025" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0029" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0033" x="3169" y="3212" width="261" height="307" frameX="-4" frameY="-8" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0006" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0010" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0014" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0018" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0022" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0026" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0030" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0034" x="1102" y="2974" width="258" height="309" frameX="-0" frameY="-6" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0007" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0011" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0015" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0019" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0023" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0027" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0031" x="1773" y="2093" width="281" height="315" frameX="-0" frameY="-0" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0008" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0012" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0016" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0020" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0024" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0028" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead Loop0032" x="411" y="835" width="255" height="305" frameX="-4" frameY="-10" frameWidth="281" frameHeight="315"/>
+	<SubTexture name="BF Dead confirm0007" x="2058" y="2783" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0013" x="2058" y="2783" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0019" x="2058" y="2783" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0025" x="2058" y="2783" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0031" x="2058" y="2783" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0008" x="1727" y="2971" width="303" height="308" frameX="-8" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0014" x="1727" y="2971" width="303" height="308" frameX="-8" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0020" x="1727" y="2971" width="303" height="308" frameX="-8" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0026" x="1727" y="2971" width="303" height="308" frameX="-8" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0032" x="1727" y="2971" width="303" height="308" frameX="-8" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0009" x="2754" y="2279" width="313" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0015" x="2754" y="2279" width="313" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0021" x="2754" y="2279" width="313" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0027" x="2754" y="2279" width="313" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0033" x="2754" y="2279" width="313" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0010" x="671" y="417" width="317" height="308" frameX="-1" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0016" x="671" y="417" width="317" height="308" frameX="-1" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0022" x="671" y="417" width="317" height="308" frameX="-1" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0028" x="671" y="417" width="317" height="308" frameX="-1" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0034" x="671" y="417" width="317" height="308" frameX="-1" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0011" x="2745" y="2590" width="312" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0017" x="2745" y="2590" width="312" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0023" x="2745" y="2590" width="312" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0029" x="2745" y="2590" width="312" height="308" frameX="-3" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0012" x="2367" y="2841" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0018" x="2367" y="2841" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0024" x="2367" y="2841" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF Dead confirm0030" x="2367" y="2841" width="306" height="308" frameX="-6" frameY="-0" frameWidth="321" frameHeight="312"/>
+	<SubTexture name="BF HEY!!0002" x="1401" y="1" width="382" height="360" frameX="-0" frameY="-0" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0004" x="1401" y="716" width="374" height="348" frameX="-0" frameY="-13" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0006" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0007" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0008" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0009" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0010" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0011" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0012" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0013" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0014" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0015" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0016" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0017" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0018" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0019" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0020" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0021" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0022" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0023" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0024" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0025" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF HEY!!0026" x="1401" y="364" width="375" height="349" frameX="-0" frameY="-12" frameWidth="385" frameHeight="363"/>
+	<SubTexture name="BF Jeringa0002" x="2159" y="343" width="364" height="358" frameX="-4" frameY="-4" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0004" x="1786" y="1" width="370" height="348" frameX="-22" frameY="-7" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0006" x="1" y="2318" width="357" height="351" frameX="-1" frameY="-5" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0008" x="1396" y="2626" width="328" height="343" frameX="-1" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0010" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0011" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0012" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0013" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0014" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0015" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0016" x="1727" y="2625" width="328" height="343" frameX="-2" frameY="-13" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0021" x="1065" y="2626" width="328" height="345" frameX="-6" frameY="-11" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF Jeringa0022" x="2873" y="1" width="331" height="339" frameX="-3" frameY="-17" frameWidth="393" frameHeight="371"/>
+	<SubTexture name="BF NOTE DOWN MISS0014" x="2515" y="1072" width="344" height="353" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0026" x="2515" y="1072" width="344" height="353" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0015" x="1430" y="2267" width="340" height="355" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0027" x="1430" y="2267" width="340" height="355" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0016" x="2527" y="1" width="343" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0028" x="2527" y="1" width="343" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0017" x="745" y="2266" width="340" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0029" x="745" y="2266" width="340" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0008" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0010" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0012" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0018" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0020" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0022" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0024" x="2526" y="358" width="344" height="354" frameX="-0" frameY="-2" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0009" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0011" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0013" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0019" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0021" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0023" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN MISS0025" x="1088" y="2267" width="339" height="356" frameX="-4" frameY="-0" frameWidth="347" frameHeight="359"/>
+	<SubTexture name="BF NOTE DOWN0002" x="2854" y="1638" width="329" height="312" frameX="-4" frameY="-0" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0004" x="2862" y="1024" width="332" height="306" frameX="-0" frameY="-6" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0006" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0007" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0008" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0009" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0010" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0011" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE DOWN0012" x="2862" y="1333" width="332" height="302" frameX="-0" frameY="-9" frameWidth="336" frameHeight="315"/>
+	<SubTexture name="BF NOTE LEFT MISS0008" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0010" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0012" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0014" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0016" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0018" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0020" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0022" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0024" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0026" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0028" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0030" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0032" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0034" x="1046" y="1532" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0009" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0011" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0013" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0015" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0017" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0019" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0021" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0023" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0025" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0027" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0029" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0031" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT MISS0033" x="1386" y="1444" width="337" height="373" frameX="-11" frameY="-0" frameWidth="356" frameHeight="375"/>
+	<SubTexture name="BF NOTE LEFT0002" x="361" y="2318" width="352" height="349" frameX="-0" frameY="-4" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT0004" x="361" y="2670" width="342" height="351" frameX="-7" frameY="-2" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT0006" x="2513" y="1428" width="338" height="353" frameX="-11" frameY="-0" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT0007" x="2513" y="1428" width="338" height="353" frameX="-11" frameY="-0" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT0008" x="2513" y="1428" width="338" height="353" frameX="-11" frameY="-0" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT0009" x="2513" y="1428" width="338" height="353" frameX="-11" frameY="-0" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE LEFT0010" x="2513" y="1428" width="338" height="353" frameX="-11" frameY="-0" frameWidth="354" frameHeight="355"/>
+	<SubTexture name="BF NOTE RIGHT MISS0007" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0009" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0011" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0013" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0015" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0017" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0019" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0021" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0023" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0025" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0027" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0029" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0031" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0033" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0035" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0037" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0039" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0041" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0043" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0045" x="330" y="1" width="326" height="415" frameX="-5" frameY="-0" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0008" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0010" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0012" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0014" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0016" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0018" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0020" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0022" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0024" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0026" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0028" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0030" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0032" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0034" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0036" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0038" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0040" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0042" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0044" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT MISS0046" x="659" y="1" width="329" height="413" frameX="-5" frameY="-2" frameWidth="334" frameHeight="416"/>
+	<SubTexture name="BF NOTE RIGHT0002" x="2423" y="2140" width="328" height="353" frameX="-0" frameY="-3" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0004" x="2517" y="715" width="325" height="354" frameX="-4" frameY="-2" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0006" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0007" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0008" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0009" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0010" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0011" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0012" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0013" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0014" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0015" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0016" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0017" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0018" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0019" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0020" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0021" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0022" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0023" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0024" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE RIGHT0025" x="2094" y="2079" width="326" height="355" frameX="-6" frameY="-0" frameWidth="334" frameHeight="357"/>
+	<SubTexture name="BF NOTE UP MISS0004" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0006" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0008" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0010" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0012" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0014" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0016" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0018" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0020" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0022" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0024" x="411" y="1145" width="383" height="387" frameX="-0" frameY="-0" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0005" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0007" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0009" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0011" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0013" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0015" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0017" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0019" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0021" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP MISS0023" x="797" y="1145" width="386" height="384" frameX="-0" frameY="-2" frameWidth="386" frameHeight="390"/>
+	<SubTexture name="BF NOTE UP0002" x="2150" y="1355" width="360" height="359" frameX="-9" frameY="-0" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0004" x="745" y="1911" width="368" height="352" frameX="-0" frameY="-7" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0006" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0007" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0008" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0009" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0010" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0011" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0012" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0013" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0014" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF NOTE UP0015" x="1116" y="1908" width="366" height="356" frameX="-1" frameY="-3" frameWidth="372" frameHeight="361"/>
+	<SubTexture name="BF dies0004" x="1363" y="2974" width="283" height="309" frameX="-101" frameY="-3" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0006" x="1" y="3024" width="275" height="312" frameX="-99" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0008" x="279" y="3024" width="277" height="312" frameX="-97" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0009" x="279" y="3024" width="277" height="312" frameX="-97" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0010" x="279" y="3024" width="277" height="312" frameX="-97" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0011" x="279" y="3024" width="277" height="312" frameX="-97" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0013" x="559" y="3024" width="270" height="312" frameX="-94" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0015" x="832" y="2974" width="267" height="312" frameX="-89" frameY="-0" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0017" x="2676" y="2901" width="264" height="308" frameX="-87" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0019" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0020" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0021" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0022" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0023" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0024" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0025" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0026" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0027" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0028" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0029" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0030" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0031" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0032" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0033" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0034" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0035" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0036" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF dies0037" x="2943" y="2901" width="261" height="308" frameX="-85" frameY="-4" frameWidth="384" frameHeight="312"/>
+	<SubTexture name="BF idle dance0002" x="2151" y="704" width="363" height="333" frameX="-1" frameY="-17" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0004" x="1726" y="1755" width="365" height="335" frameX="-0" frameY="-15" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0006" x="2159" y="1" width="365" height="339" frameX="-2" frameY="-11" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0008" x="1779" y="701" width="369" height="349" frameX="-1" frameY="-1" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0010" x="1778" y="1053" width="369" height="350" frameX="-1" frameY="-0" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0011" x="1778" y="1053" width="369" height="350" frameX="-1" frameY="-0" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0012" x="1778" y="1053" width="369" height="350" frameX="-1" frameY="-0" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0013" x="1778" y="1053" width="369" height="350" frameX="-1" frameY="-0" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="BF idle dance0014" x="1778" y="1053" width="369" height="350" frameX="-1" frameY="-0" frameWidth="373" frameHeight="352"/>
+	<SubTexture name="boyfriend dodge0006" x="1" y="835" width="407" height="373" frameX="-0" frameY="-4" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0009" x="1" y="835" width="407" height="373" frameX="-0" frameY="-4" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0012" x="1" y="835" width="407" height="373" frameX="-0" frameY="-4" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0015" x="1" y="835" width="407" height="373" frameX="-0" frameY="-4" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0007" x="991" y="1" width="407" height="378" frameX="-0" frameY="-0" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0010" x="991" y="1" width="407" height="378" frameX="-0" frameY="-0" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0013" x="991" y="1" width="407" height="378" frameX="-0" frameY="-0" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0008" x="991" y="382" width="407" height="377" frameX="-0" frameY="-1" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0011" x="991" y="382" width="407" height="377" frameX="-0" frameY="-1" frameWidth="410" frameHeight="382"/>
+	<SubTexture name="boyfriend dodge0014" x="991" y="382" width="407" height="377" frameX="-0" frameY="-1" frameWidth="410" frameHeight="382"/>
+</TextureAtlas>

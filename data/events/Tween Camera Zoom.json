@@ -1,0 +1,24 @@
+{
+    "params": [
+        {
+            "name": "Value",
+            "type": "String",
+            "defaultValue": "0"
+        },
+        {
+            "name": "Time in Steps:Beats:Sections",
+            "type": "String",
+            "defaultValue": "0:0:0"
+        },
+        {
+            "name": "Ease",
+            "type": "DropDown('In', 'Out', 'Both')",
+            "defValue": "Both"
+        },
+        {
+            "name": "Character",
+            "type": "DropDown('Boyfriend', 'Girlfriend', 'Dad', 'All')",
+            "defValue": "Dad"
+        }
+    ]
+}

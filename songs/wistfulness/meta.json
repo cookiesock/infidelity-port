@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 101,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -1,
+	"displayName": "Wistfulness",
+	"icon": "mouse-sad",
+	"name": "wistfulness",
+	"color": "#FFFFFF"
+}
