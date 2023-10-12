@@ -1,0 +1,24 @@
+{
+	"params": [
+		{
+			"name": "Time",
+			"type": "String",
+			"defaultValue": "0"
+		},
+		{
+			"name": "Fade In",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "Color",
+			"type": "ColorWheel",
+			"defaultValue": "#FFFFFF"
+		},
+		{
+			"name": "Camera",
+			"type": "DropDown('camGame', 'camHUD')",
+			"defaultValue": "camGame"
+		}
+	]
+}

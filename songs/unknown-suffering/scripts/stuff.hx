@@ -36,10 +36,11 @@ function stepHit()
             cameraProperties.dad.x += 150;
             cameraProperties.dad.y += 50;
         case 1616:
-            FlxTween.num(songLength, inst.length, 10);
-            for (i in [healthBar, healthBarBG, iconP1, iconP2, scoreGroup, botplayTxt])
+            FlxTween.num(songLength, inst.length, 10, {ease: FlxEase.circInOut}, function(num) {songLength = num;});
+            for (i in [healthBar, healthBarBG, iconP1, iconP2, scoreGroup])
                 FlxTween.tween(i, {alpha: 0.001}, 1);
         case 1744:
-            for (i in [healthBar, healthBarBG, iconP1, iconP2, scoreGroup, botplayTxt])
+            for (i in [healthBar, healthBarBG, iconP1, iconP2, scoreGroup])
                 FlxTween.tween(i, {alpha: 1}, 0.2);
+        case 2260: FlxTween.tween(camHUD, {alpha: 0.001}, 1);
     }

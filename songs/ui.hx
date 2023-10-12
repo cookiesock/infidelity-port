@@ -1,16 +1,17 @@
 import flixel.ui.FlxBarFillDirection;
 import flixel.text.FlxTextBorderStyle;
 import flixel.ui.FlxBar;
+import flixel.group.FlxSpriteGroup;
 
 public var songLength:Float = 0;
 public var scoreSideTxt:FlxText;
 public var ratingsTxt:FlxText;
 public var songTxt:FlxText;
 
-public var scoreGroup:FlxGroup;
+public var scoreGroup:FlxSpriteGroup;
 
 function postCreate() {
-	scoreGroup = new FlxGroup();
+	scoreGroup = new FlxSpriteGroup();
 
 	timeBarBG = new FlxSprite(0, FlxG.height-22).makeSolid(1, 1, 0xFF000000);
 	timeBarBG.setGraphicSize(FlxG.width, 22);

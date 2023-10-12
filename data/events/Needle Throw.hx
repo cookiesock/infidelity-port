@@ -84,6 +84,7 @@ function update(elapsed) {
                 properties.bar.color = 0xFF000000;
 
                 if (!dodged) {
+					canDodge = false;
 					boyfriend.playAnim('at', true);
 					health /= 2;
 					syringehits++;
