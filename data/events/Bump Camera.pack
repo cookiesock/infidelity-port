@@ -7,8 +7,8 @@ Bump Camera.hx________PACKSEP________function onEvent(_)
 	"params": [
 		{
 			"name": "Amount",
-			"type": "String",
-			"defaultValue": "0.1"
+			"type": "Float(0, 10, 1, 10)",
+			"defaultValue": 0.1
 		},
 		{
 			"name": "Camera",

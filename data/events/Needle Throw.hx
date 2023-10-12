@@ -79,7 +79,6 @@ function update(elapsed) {
         if (Conductor.songPosition >= (properties.event.time - step*2000) && (!canDodge && !dodged)) {
             canDodge = true;
 			properties.bar.color = 0xFFFF0000;
-            trace('dick');
             new FlxTimer().start(step*4, function(timer) {
                 properties.bar.color = 0xFF000000;
 

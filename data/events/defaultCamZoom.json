@@ -2,8 +2,8 @@
 	"params": [
 		{
 			"name": "Value",
-			"type": "String",
-			"defaultValue": "0"
+			"type": "Float(0.1, 10, 0.1, 10)",
+			"defaultValue": 0
 		},
         {
             "name": "Character",

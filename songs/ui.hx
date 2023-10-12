@@ -10,6 +10,27 @@ public var songTxt:FlxText;
 
 public var scoreGroup:FlxSpriteGroup;
 
+public var camBars:FlxCamera;
+public var bars:Array<FlxSprite> = [];
+
+function create() {
+	camBars = new FlxCamera();
+	camBars.bgColor = 0;
+    FlxG.cameras.remove(camHUD, false);
+	FlxG.cameras.add(camBars, false);
+	FlxG.cameras.add(camHUD, false);
+
+    for (i in 0...2) {
+        var bar = new FlxSprite().makeSolid(1, 1, 0xFF000000);
+        bar.scale.set(FlxG.width, FlxG.height);
+        bar.cameras = [camBars];
+        bar.updateHitbox();
+        bar.y = i==0 ? -(FlxG.height) : FlxG.height;
+        add(bar);
+		bars.push(bar);
+    }
+}
+
 function postCreate() {
 	scoreGroup = new FlxSpriteGroup();
 
@@ -88,11 +109,9 @@ function update(elapsed:Float) {
 					  'Good: '+goods+'\n'+
 					  'Bad: '+bads+'\n'+
 					  'Shit: '+shits+'\n';
-	// ratingsTxt.x = FlxG.width - ratingsTxt.width - 25;
 }
 
 function onPlayerHit(event:NoteHitEvent) {
-	// im not putting the ratings and shit on the hud. if i ever do that i need someone to kill me
 	event.ratingScale = 0;
 	event.numScale = 0;
 	if (!event.note.isSustainNote) {
@@ -104,3 +123,9 @@ function onPlayerHit(event:NoteHitEvent) {
 		}
 	}
 }
+
+// PUBLIC FUNCTIONS
+
+public function addCinematicBars(time:Float, size:Float, tweenEase)
+	for (i in 0...2)
+		FlxTween.tween(bars[i], {y: i==0 ? (bars[i].height/size)-FlxG.height : FlxG.height-(bars[i].height/size)}, time, {ease: tweenEase});

@@ -2,8 +2,8 @@
 	"params": [
 		{
 			"name": "Time",
-			"type": "String",
-			"defaultValue": "0"
+			"type": "Float(0.001, 10, 1, 10)",
+			"defaultValue": 0
 		},
 		{
 			"name": "Fade In",

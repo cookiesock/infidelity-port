@@ -1,27 +1,13 @@
-var camBars:FlxCamera;
-
 function postCreate() {
     FlxG.camera.fade(0xFF000000, 0.001, false, null, true);
 
     cameraProperties.dad.zoom = cameraProperties.boyfriend.zoom = FlxG.camera.zoom = 0.65;
 
-    camBars = new FlxCamera();
-	camBars.bgColor = 0;
-    FlxG.cameras.remove(camHUD, false);
-	FlxG.cameras.add(camBars, false);
-	FlxG.cameras.add(camHUD, false);
-
-    for (i in 0...2) {
-        var bar = new FlxSprite().makeSolid(1, 1, 0xFF000000);
-        bar.scale.set(FlxG.width, FlxG.height / 7);
-        bar.cameras = [camBars];
-        bar.updateHitbox();
-        bar.y = i==0 ? 0 : FlxG.height-(bar.height);
-        add(bar);
-    }
+    addCinematicBars(0.001, 7, null);
 }
 
-function onSongStart() songLength = 121 * 1000;
+function onSongStart()
+    songLength = 121 * 1000;
 
 function onEvent(_)
     if (_.event.name == 'Bump Camera' && curStep < 256)
