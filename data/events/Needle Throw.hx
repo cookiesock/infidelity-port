@@ -8,10 +8,8 @@ import Math;
 
 public var syringehits:Int = 0;
 var shits:Array = [];
-var played:Bool = false;
 var canDodge:Bool = false;
 var dodged:Bool = false;
-var warned:Bool = false;
 
 var step:Float = 0;
 
@@ -45,7 +43,14 @@ function postCreate() {
                 (Conductor.crochet*(values[1]))/1000 +
                 (Conductor.crochet*(values[2]*4))/1000;
 
-			shits.push([event, spr, timerbar, finalTime]);
+			shits.push({
+				event: event,
+				warning: spr,
+				bar: timerbar,
+				finalTime: finalTime,
+				warned: false,
+				playedAnim: false
+			});
 		}
 }
 
@@ -53,54 +58,58 @@ function update(elapsed) {
     if (canDodge && FlxG.keys.justPressed.SPACE) {
 		dodged = true;
 		canDodge = false;
+		boyfriend.playAnim('dodge', true);
 	}
 
-    for (event in shits) {
-        // initial warning
-        
-		if (Conductor.songPosition >= (event[0].time - event[3]) && !warned) {
-			event[1].alpha = 1;
-			event[1].animation.play('anim', true);
+    for (properties in shits) {
+		if (Conductor.songPosition >= (properties.event.time - properties.finalTime*1000) && !properties.warned) {
+			properties.warning.alpha = 1;
+			properties.warning.animation.play('anim', true);
 			FlxG.sound.play(Paths.sound('mechanics/Warning'));
-			FlxTween.tween(event[2], {value: 1}, event[3], {ease: FlxEase.quadIn});
-			FlxTween.tween(event[2], {alpha: 1}, step*2, {ease: FlxEase.quadInOut});
-			warned = true;
+			FlxTween.tween(properties.bar, {value: 1}, properties.finalTime, {ease: FlxEase.quadIn});
+			FlxTween.tween(properties.bar, {alpha: 1}, step*2, {ease: FlxEase.quadInOut});
+			properties.warned = true;
 		}
 
-        if (Conductor.songPosition >= (event[0].time - step*2) && (!canDodge && !dodged)) {
+		if (Conductor.songPosition >= (properties.event.time - Conductor.crochet) && !properties.playedAnim) {
+			dad.playAnim('dodge', true);
+			properties.playedAnim = true;
+		}
+
+        if (Conductor.songPosition >= (properties.event.time - step*2000) && (!canDodge && !dodged)) {
             canDodge = true;
-			event[2].color = 0xFFFF0000;
+			properties.bar.color = 0xFFFF0000;
             trace('dick');
-            // new FlxTimer().start(step*4, function(timer) {
-            //     event[2].color = 0xFF000000;
+            new FlxTimer().start(step*4, function(timer) {
+                properties.bar.color = 0xFF000000;
 
-            //     if (!dodged) {
-			// 		boyfriend.playAnim('at', true);
-			// 		health /= 2;
-			// 		syringehits++;
+                if (!dodged) {
+					boyfriend.playAnim('at', true);
+					health /= 2;
+					syringehits++;
 
-			// 		for (strum in playerStrums.members) {
-			// 			// random sharp pain in my left hand lets go
-			// 			FlxTween.shake(strum, 0.05, step, FlxAxes.XY, {onComplete: function() {
-			// 				var numberOfTheDay:Float = 7;
-			// 				strum.x += FlxG.random.float(-numberOfTheDay, numberOfTheDay);
-			// 				strum.y -= FlxG.random.float(-numberOfTheDay, numberOfTheDay);
-			// 				strum.angle = FlxG.random.float(-numberOfTheDay, numberOfTheDay);
-			// 				strum.noteAngle = FlxG.random.float(-numberOfTheDay, numberOfTheDay);
-			// 			}});
-			// 		}
-			// 	} else boyfriend.playAnim('dodge', true);
+					for (strum in playerStrums.members) {
+						// random sharp pain in my left hand lets go
+						FlxTween.shake(strum, 0.05, step, FlxAxes.XY, {onComplete: function() {
+							var numberOfTheDay:Float = 7;
+							strum.x += FlxG.random.float(-numberOfTheDay, numberOfTheDay);
+							strum.y -= FlxG.random.float(-numberOfTheDay, numberOfTheDay);
+							strum.angle = FlxG.random.float(-numberOfTheDay, numberOfTheDay);
+							strum.noteAngle = FlxG.random.float(-numberOfTheDay, numberOfTheDay);
+						}});
+					}
+				}
 
-			// 	FlxTween.tween(event[2], {alpha: 0.001}, step*2, {ease: FlxEase.quadInOut, onComplete: function() {
-			// 		shits.remove(event);
-			// 		played = false;
-			// 		canDodge = false;
-			// 		dodged = false;
-			// 		warned = false;
-			// 		remove(event[1]);
-			// 		remove(event[2]);
-			// 	}});
-            // });
+				FlxTween.tween(properties.bar, {alpha: 0.001}, step*2, {ease: FlxEase.quadInOut, onComplete: function() {
+					shits.remove(properties);
+					played = false;
+					canDodge = false;
+					dodged = false;
+					warned = false;
+					remove(properties.warning);
+					remove(properties.bar);
+				}});
+            });
 		}
     }
 }

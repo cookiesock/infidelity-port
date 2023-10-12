@@ -34,7 +34,7 @@ function postCreate() {
 	FlxG.cameras.add(camOther, false);
 
 	grain = new FlxSprite();
-	grain.frames = FlxAtlasFrames.fromTexturePackerJson(Paths.image("effects/grain"), Paths.file("images/effects/grain.json"));
+	grain.frames = Paths.getSparrowAtlas('effects/grain');
 	grain.animation.addByPrefix('idle', 'grain', 24, true);
 	grain.animation.play('idle', true);
 	exactSetGraphicSize(grain, FlxG.width + 6, FlxG.height + 6);
@@ -82,7 +82,7 @@ function postUpdate(elapsed) {
 }
 
 function onNoteHit(event) {
-	if (event.character.xml.get('shake') == 'true' && StringTools.startsWith(event.character.getAnimName(), 'sing')) {
+	if (event.character.xml.get('shake') == 'true') {
 		FlxG.camera.shake(0.008, 0.2);
 		camHUD.shake(0.006, 0.2);
 	}
@@ -107,3 +107,7 @@ function onEvent(_)
 function exactSetGraphicSize(obj:Dynamic, width:Float, height:Float) {
 	obj.scale.set(Math.abs(((obj.width - width) / obj.width) - 1), Math.abs(((obj.height - height) / obj.height) - 1));
 }
+
+function beatHit()
+	if (Options.camZoomOnBeat && camZooming && FlxG.camera.zoom < maxCamZoom && curBeat % camZoomingInterval == 0)
+		FlxG.camera.zoom += 0.03 * camZoomingStrength;

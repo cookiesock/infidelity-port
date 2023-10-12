@@ -3,7 +3,7 @@
         {
             "name": "Time to react in Steps:Beats:Sections",
             "type": "String",
-            "defaultValue": "2:1:0"
+            "defaultValue": "0:0:0"
         }
     ]
 }

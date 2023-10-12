@@ -2,12 +2,12 @@ import flixel.ui.FlxBarFillDirection;
 import flixel.text.FlxTextBorderStyle;
 import flixel.ui.FlxBar;
 
-public var bars = [];
-var scoreSideTxt:FlxText;
-var ratingsTxt:FlxText;
-var songTxt:FlxText;
+public var songLength:Float = 0;
+public var scoreSideTxt:FlxText;
+public var ratingsTxt:FlxText;
+public var songTxt:FlxText;
 
-var scoreGroup:FlxGroup;
+public var scoreGroup:FlxGroup;
 
 function postCreate() {
 	scoreGroup = new FlxGroup();
@@ -66,6 +66,8 @@ function postCreate() {
 	}
 
 	comboRatings = [];
+
+	songLength = inst.length;
 }
 
 var sicks:Int = 0;
@@ -78,8 +80,8 @@ function update(elapsed:Float) {
 						'Misses: ' + misses + '\n' +
 						'Accuracy: ' + (FlxMath.roundDecimal(accuracy * 100, 2) == -100 ? "N/A" : FlxMath.roundDecimal(accuracy * 100, 2) + '%');
 	if (curStep >= 1)
-		timeTxt.text = CoolUtil.timeToStr(Conductor.songPosition).split('.')[0] + ' - ' + CoolUtil.timeToStr(FlxG.sound.music.length).split('.')[0];
-	timeBar.percent = (Conductor.songPosition/inst.length)*100;
+		timeTxt.text = CoolUtil.timeToStr(Conductor.songPosition).split('.')[0] + ' - ' + CoolUtil.timeToStr(songLength).split('.')[0];
+	timeBar.percent = (Conductor.songPosition/songLength)*100;
 
 	ratingsTxt.text = 'Sick: '+sicks+'\n'+
 					  'Good: '+goods+'\n'+

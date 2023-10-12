@@ -21,6 +21,8 @@ function postCreate() {
     }
 }
 
+function onSongStart() songLength = 121 * 1000;
+
 function onEvent(_)
     if (_.event.name == 'Bump Camera' && curStep < 256)
         cameraProperties.dad.zoom = cameraProperties.boyfriend.zoom = FlxG.camera.zoom = FlxG.camera.zoom + _.event.params[0];
@@ -33,4 +35,11 @@ function stepHit()
         case 256:
             cameraProperties.dad.x += 150;
             cameraProperties.dad.y += 50;
+        case 1616:
+            FlxTween.num(songLength, inst.length, 10);
+            for (i in [healthBar, healthBarBG, iconP1, iconP2, scoreGroup, botplayTxt])
+                FlxTween.tween(i, {alpha: 0.001}, 1);
+        case 1744:
+            for (i in [healthBar, healthBarBG, iconP1, iconP2, scoreGroup, botplayTxt])
+                FlxTween.tween(i, {alpha: 1}, 0.2);
     }

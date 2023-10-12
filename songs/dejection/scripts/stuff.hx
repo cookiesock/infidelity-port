@@ -38,3 +38,13 @@ function stepHit() {
 		case 656: distortion.working = true;
 	}
 }
+
+function stepHit()
+    switch(curStep) {
+        case 624:
+            cameraProperties.dad.x -= 150;
+            cameraProperties.dad.y -= 100;
+        case 656:
+            cameraProperties.dad.x += 150;
+            cameraProperties.dad.y += 100;
+    }
