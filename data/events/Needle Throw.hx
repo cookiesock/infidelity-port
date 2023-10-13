@@ -52,15 +52,19 @@ function postCreate() {
 				playedAnim: false
 			});
 		}
+
+	FlxG.stage.addEventListener("keyDown", boobies);
 }
 
-function update(elapsed) {
-    if (canDodge && FlxG.keys.justPressed.SPACE) {
+function boobies(e) {
+	if (canDodge && e.keyCode == 0x20) {
 		dodged = true;
 		canDodge = false;
 		boyfriend.playAnim('dodge', true);
 	}
+}
 
+function update(elapsed) {
     for (properties in shits) {
 		if (Conductor.songPosition >= (properties.event.time - properties.finalTime*1000) && !properties.warned) {
 			properties.warning.alpha = 1;
@@ -118,3 +122,6 @@ var nonolist = ['dodge', 'at'];
 function onNoteHit(event)
 	if (nonolist.contains(event.note.strumLine.characters[0].getAnimName()) && event.note.strumLine.characters[0].animation.curAnim.finished == false)
 		event.cancelAnim();
+
+function onDestroy()
+	FlxG.stage.addEventListener("keyDown", boobies);
