@@ -32,6 +32,8 @@ function create() {
 }
 
 function postCreate() {
+	window.title = 'Wednesday\'s Infidelity - ' + PlayState.SONG.meta.displayName;
+
 	scoreGroup = new FlxSpriteGroup();
 
 	timeBarBG = new FlxSprite(0, FlxG.height-22).makeSolid(1, 1, 0xFF000000);
