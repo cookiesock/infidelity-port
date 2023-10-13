@@ -1,21 +1,21 @@
+// TRANSITION CODE BY NE_EO
+
+var shar = new CustomShader("trans");
+
 function create() {
-    transitionTween.cancel();
+	transitionTween.cancel();
 
-    remove(blackSpr);
-    remove(transitionSprite);
-    transitionSprite.frames = Paths.getSparrowAtlas('menus/wiTransition');
-    transitionSprite.animation.addByPrefix('in', 'kevin_normal', 24, false);
-    transitionSprite.animation.addByPrefix('out', 'kevin_normal', 24, false);
-    transitionSprite.scale.set(2,2);
-    transitionSprite.updateHitbox();
-    transitionSprite.cameras = [transitionCamera];
-    transitionSprite.screenCenter();
-    transitionSprite.x -= 80;
-    transitionSprite.y -= newState != null ? 50 : -50;
-    transitionSprite.animation.play(newState != null ? 'out' : 'in', true, newState != null ? false : true);
-    add(transitionSprite);
+	remove(blackSpr);
+	remove(transitionSprite);
 
-    transitionCamera.scroll.y = 0;
+	transitionCamera.scroll.y = 0;
 
-    new FlxTimer().start(2/3, ()-> {finish();});
+	transitionCamera.addShader(shar);
+
+	var from = newState != null ? 0 : 1;
+	var to = newState != null ? 1 : 0;
+	shar.apply = from;
+	FlxTween.num(from, to, 2/3, {ease: FlxEase.quadInOut}, (val:Float) -> {shar.apply = val;});
+
+	new FlxTimer().start(2/3, ()-> {finish();});
 }
