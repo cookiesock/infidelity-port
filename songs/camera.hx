@@ -29,8 +29,11 @@ public var camOther:FlxCamera;
 public var grain:FlxSprite;
 var locked:Bool = false;
 var campositions:Array<Float> = [0,0];
+var shitZoom:Float = 0;
 
 function postCreate() {
+	shitZoom = FlxG.camera.zoom;
+
 	camOther = new FlxCamera();
 	camOther.bgColor = 0;
 	FlxG.cameras.add(camOther, false);
@@ -105,6 +108,13 @@ function onEvent(_)
 			locked = _.event.params[2];
 			campositions = [Std.parseFloat(_.event.params[0]), Std.parseFloat(_.event.params[1])];
 	}
+
+function onCountdown(event) {
+	FlxTween.completeTweensOf(FlxG.camera, ['zoom']);
+	if (event.swagCounter > 3 || event.swagCounter == 0) return;
+	FlxG.camera.zoom += 0.4;
+	FlxTween.tween(FlxG.camera, {zoom: shitZoom}, 0.2, {ease: FlxEase.circOut});
+}
 
 function beatHit()
 	if (Options.camZoomOnBeat && camZooming && FlxG.camera.zoom < maxCamZoom && curBeat % camZoomingInterval == 0 && cameraProperties.intenseZoom)
