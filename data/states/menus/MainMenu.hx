@@ -22,6 +22,8 @@ var selectedSomethin:Bool = false;
 // var chrom:CustomShader = new CustomShader('chromatic-aberration');
 
 function postCreate() {
+	CoolUtil.playMenuSong();
+    
     window.title = "Wednesday's Infidelity - Main Menu";
 
     // bloom.Size = 5.0;

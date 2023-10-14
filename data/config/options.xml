@@ -1,0 +1,6 @@
+<!DOCTYPE codename-mod-options>
+<menu name="Infidelity Port" desc="mostly accessibility stuff">
+	<checkbox id="infidelityFLASH" name="Disable Flashing Lights" />
+	<checkbox id="infidelitySHAKE" name="Disable Camera Shaking" />
+	<checkbox id="infidelitySHADERS" name="Disable Shaders" desc="Disables all shaders except for the menu transition." />
+</menu>

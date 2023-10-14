@@ -1,10 +1,17 @@
 <!DOCTYPE codename-engine-character> <!-- made with inky's character editor -->
 <character x="-35" camx="-120" icon="dad" y="75" scale="1.2" camy="30" color="#525951" flipX="false" isPlayer="false" holdTime="4">
-	<anim x="-10" loop="false" y="-77" fps="24" anim="Mouse Down" name="singDOWN"/>
-	<anim x="41" loop="false" y="-19" fps="24" anim="Mouse Left" name="singLEFT"/>
-	<anim x="-1" loop="false" y="-19" fps="24" anim="Mouse Rigth" name="singRIGHT"/>
-	<anim x="3" loop="false" y="-52" fps="24" anim="Mouse Up" name="singUP"/>
-	<anim x="71" loop="false" y="-6" fps="24" anim="laugh" name="risa"/>
-	<anim x="71" loop="false" y="-6" fps="24" anim="laugh" indices="28,29,30,31,32,33,34,34,34,34" name="risaSingle"/>
+	<anim x="-9" loop="false" y="-65" fps="24" anim="Mouse Down" name="singDOWN"/>
+
+	<anim x="40" loop="false" y="-12" fps="24" anim="Mouse Left" name="singLEFT"/>
+
+	<anim x="-30" loop="false" y="-14" fps="24" anim="Mouse Rigth" name="singRIGHT"/>
+
+	<anim x="11" loop="false" y="-47" fps="24" anim="Mouse Up" name="singUP"/>
+
+	<anim x="57" loop="false" y="-6" fps="24" anim="laugh" name="risa"/>
+
+	<anim x="58" loop="false" y="-6" fps="24" anim="laugh" indices="28,29,30,31,32,33,34,34,34,34" name="risaSingle"/>
+
 	<anim x="0" loop="false" y="0" fps="24" anim="Mouse idle" name="idle"/>
+
 </character>

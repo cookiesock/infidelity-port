@@ -1,3 +1,5 @@
+if (FlxG.save.data.infidelityFLASH) disableScript();
+
 function onEvent(_)
     if (_.event.name == 'Flash Camera') {
 		switch(_.event.params[3]) {

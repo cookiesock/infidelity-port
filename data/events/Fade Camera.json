@@ -4,8 +4,7 @@
 			"name": "Time",
 			"type": "Float(0.001, 10, 1, 10)",
 			"defaultValue": 0
-		},
-		{
+		}	,		{
 			"name": "Fade In",
 			"type": "Bool",
 			"defaultValue": false
@@ -19,6 +18,11 @@
 			"name": "Camera",
 			"type": "DropDown('camGame', 'camHUD')",
 			"defaultValue": "camGame"
+		},
+		{
+			"name": "Affected by the Flashing Lights Setting?",
+			"type": "Bool",
+			"defaultValue": false
 		}
 	]
 }
