@@ -3,6 +3,6 @@
 	<sprite name="bg" x="-600" y="-200" sprite="VecindarioBG"/>
 
 	<girlfriend />
-	<dad x="0" y="99" camxoffset="250"/>
-	<boyfriend x="875" y="100" camxoffset="-250"/>
+	<dad x="0" y="99"/>
+	<boyfriend x="875" y="100"/>
 </stage>

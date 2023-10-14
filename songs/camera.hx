@@ -19,7 +19,9 @@ public var cameraProperties = {
 		x: 952.9,
 		y: 550,
 		zoom: 1
-	}
+	},
+	intenseZoom: false,
+	zoomMultiplier: 1
 };
 
 public var noteMovementStrength:Float = 1;
@@ -104,10 +106,6 @@ function onEvent(_)
 			campositions = [Std.parseFloat(_.event.params[0]), Std.parseFloat(_.event.params[1])];
 	}
 
-function exactSetGraphicSize(obj:Dynamic, width:Float, height:Float) {
-	obj.scale.set(Math.abs(((obj.width - width) / obj.width) - 1), Math.abs(((obj.height - height) / obj.height) - 1));
-}
-
 function beatHit()
-	if (Options.camZoomOnBeat && camZooming && FlxG.camera.zoom < maxCamZoom && curBeat % camZoomingInterval == 0)
-		FlxG.camera.zoom += 0.03 * camZoomingStrength;
+	if (Options.camZoomOnBeat && camZooming && FlxG.camera.zoom < maxCamZoom && curBeat % camZoomingInterval == 0 && cameraProperties.intenseZoom)
+		FlxG.camera.zoom += (0.03 * cameraProperties.zoomMultiplier) * camZoomingStrength;

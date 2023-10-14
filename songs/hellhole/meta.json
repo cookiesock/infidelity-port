@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "dad",
+	"difficulties": [
+		"HARD"
+	],
+	"parsedColor": -9150368,
+	"color": "#FFFFFF",
+	"name": "hellhole",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Hellhole",
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"bpm": 200
+}

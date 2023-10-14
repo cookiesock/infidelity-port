@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="320" icon="satan" camx="-230" y="300" isGF="false" scale="1.65" camy="-300" isPlayer="false" holdTime="3.80000000000001" sprite="satan" shake="true">
+	<anim x="0" loop="false" y="0" fps="24" anim="SATAN IDLE" name="idle"/>
+	<anim x="-46" loop="false" y="75" fps="24" anim="SATAN LEFT" name="singLEFT"/>
+	<anim x="56" loop="false" y="-85" fps="24" anim="SATAN DOWN" name="singDOWN"/>
+	<anim x="-37" loop="false" y="112" fps="24" anim="SATAN UP" name="singUP"/>
+	<anim x="-115" loop="false" y="57" fps="24" anim="SATAN RIGHT" name="singRIGHT"/>
+	<anim x="-10" loop="false" y="196" fps="24" anim="SATAN APARICION" name="spawn"/>
+	<anim x="1" loop="false" y="-21" fps="24" anim="JUJUJUJA" name="laugh"/>
+</character>

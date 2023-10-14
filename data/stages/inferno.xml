@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" folder="stages/inferno">
+	<sprite name="infernosky" x="-440" y="-250" sprite="SKY" scroll="0.7"/>
+	<sprite name="background" x="-440" y="-210" sprite="Back" scroll="0.75"/>
+	<sprite name="infernogroundp1" x="-440" y="-210" sprite="infernogroundp1" scroll="1"/>
+
+	<girlfriend x="-280" y="-275"/>
+	<dad x="-100" y="215"/>
+	<boyfriend x="890" y="220"/>
+</stage>
