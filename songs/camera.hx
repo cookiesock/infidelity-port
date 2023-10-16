@@ -1,9 +1,5 @@
 import flixel.graphics.frames.FlxAtlasFrames;
 
-// public var dadCam:Array<Float> = [420.95, 513, 0.8];
-// public var gfCam:Array<Float> = [0, 0, 0.65];
-// public var bfCam:Array<Float> = [952.9, 550, 1];
-
 public var cameraProperties = {
 	dad: {
 		x: 420.95,
@@ -20,7 +16,6 @@ public var cameraProperties = {
 		y: 550,
 		zoom: 1
 	},
-	intenseZoom: false,
 	zoomMultiplier: 1
 };
 
@@ -68,7 +63,7 @@ function postUpdate(elapsed) {
 	if (startingSong) camGame.snapToTarget();
 
 	if (!locked) {
-		var stupid = (32*noteMovementStrength);
+		var stupid = (50*noteMovementStrength);
 		switch(strumLines.members[curCameraTarget].characters[0].getAnimName()) {
 			case "singLEFT": camFollow.x -= stupid;
 			case "singDOWN": camFollow.y += stupid;
@@ -81,9 +76,6 @@ function postUpdate(elapsed) {
 		camFollow.x = campositions[0];
 		camFollow.y = campositions[1];
 	}
-
-	// for (sl in strumLines.members)
-	// 	for (character in sl.characters)	
 }
 
 function onNoteHit(event) {
@@ -117,5 +109,5 @@ function onCountdown(event) {
 }
 
 function beatHit()
-	if (Options.camZoomOnBeat && camZooming && FlxG.camera.zoom < maxCamZoom && curBeat % camZoomingInterval == 0 && cameraProperties.intenseZoom)
+	if (Options.camZoomOnBeat && camZooming && FlxG.camera.zoom < maxCamZoom && curBeat % camZoomingInterval == 0)
 		FlxG.camera.zoom += (0.03 * cameraProperties.zoomMultiplier) * camZoomingStrength;

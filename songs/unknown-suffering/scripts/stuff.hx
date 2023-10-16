@@ -4,8 +4,6 @@ function postCreate() {
     cameraProperties.dad.zoom = cameraProperties.boyfriend.zoom = FlxG.camera.zoom = 0.65;
 
     addCinematicBars(0.001, 7, null);
-
-    cameraProperties.intenseZoom = true;
 }
 
 function onSongStart()
