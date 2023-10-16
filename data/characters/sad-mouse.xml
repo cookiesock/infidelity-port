@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter that was modified by inky lol -->
+<character isPlayer="false" x="-215" y="65" icon="badend" flipX="false" camx="-120" camy="30" holdTime="4" scale="1" color="-13947352">
+	<anim name="singDOWN" anim="Sad Mouse Down" fps="24" loop="false" x="8" y="55"/>
+	<anim name="idle" anim="Sad Mouse Idle" fps="24" loop="true" x="0" y="90"/>
+	<anim name="singLEFT" anim="Sad Mouse Left" fps="24" loop="false" x="25" y="96"/>
+	<anim name="singRIGHT" anim="Sad Mouse Rigth" fps="24" loop="false" x="38" y="115"/>
+	<anim name="singUP" anim="Sad Mouse Up" fps="24" loop="false" x="2" y="83"/>
+	<anim name="suicide" anim="Suicide" fps="24" loop="true" x="0" y="148"/>
+</character>
