@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character> <!-- made with inky's character editor -->
+<character x="-6" isGF="false" y="430" camx="-46" icon="hellholebf" camy="-61" scale="1.2" flipX="true" isPlayer="true" color="#7D808E" sprite="bf-satan">
+	<anim loop="false" x="-6" anim="BF idle dance" fps="24" y="-1" name="idle"/>
+	<anim loop="false" x="-29" anim="BF RIGHT" fps="24" y="-4" name="singRIGHT"/>
+	<anim loop="false" x="8" anim="BF DOWN" fps="24" y="-23" name="singDOWN"/>
+	<anim loop="false" x="-46" anim="BF UP" fps="24" y="16" name="singUP"/>
+	<anim loop="false" x="0" anim="BF LEFT" fps="24" y="5" name="singLEFT"/>
+	<anim loop="false" x="-18" anim="MISS RIGHT" fps="24" y="30" name="singRIGHTmiss"/>
+	<anim loop="false" x="17" anim="MISS DOWN" fps="24" y="20" name="singDOWNmiss"/>
+	<anim loop="false" x="-24" anim="MISS UP" fps="24" y="67" name="singUPmiss"/>
+	<anim loop="false" x="11" anim="MISS LEFT" fps="24" y="51" name="singLEFTmiss"/>
+	<anim loop="true" x="-6" anim="BF DEATH LOOP" fps="24" y="74" name="deathLoop"/>
+	<anim loop="false" x="-4" anim="BF DEATH CPNFIRM" fps="24" y="151" name="deathConfirm"/>
+	<anim loop="false" x="67" anim="BF DEATH FIRST" fps="24" y="93" name="firstDeath"/>
+</character>

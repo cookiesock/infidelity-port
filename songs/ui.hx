@@ -128,6 +128,10 @@ function onPlayerHit(event:NoteHitEvent) {
 
 // PUBLIC FUNCTIONS
 
-public function addCinematicBars(time:Float, size:Float, tweenEase)
-	for (i in 0...2)
-		FlxTween.tween(bars[i], {y: i==0 ? (bars[i].height/size)-FlxG.height : FlxG.height-(bars[i].height/size)}, time, {ease: tweenEase});
+public function addCinematicBars(time:Float, tweenParams)
+	for (i in 0...2) {
+		var finalPosition:Float = tweenParams.reverse != null && tweenParams.reverse ?
+			i == 0 ? -(FlxG.height) : FlxG.height :
+			i == 0 ? (bars[i].height/tweenParams.size)-FlxG.height : FlxG.height-(bars[i].height/tweenParams.size);
+		FlxTween.tween(bars[i], {y: finalPosition}, time, {ease: tweenParams.ease});
+	}

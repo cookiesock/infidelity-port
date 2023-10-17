@@ -5,8 +5,8 @@ function stepHit()
     switch(curStep) {
         case 1312:
             FlxTween.tween(camHUD, {alpha: 0.001}, 1);
+            addCinematicBars(1, {ease: FlxEase.circOut, size: 7});
         case 1328:
-            addCinematicBars(1, 7, FlxEase.circInOut);
             strumLines.members[0].visible = false;
             strumLines.members[2].visible = true;
         case 1340:
@@ -18,5 +18,7 @@ function stepHit()
             strumLines.members[0].visible = true;
             strumLines.members[2].visible = false;
         case 1872:
+            addCinematicBars(1, {ease: FlxEase.circIn, reverse: true});
+        case 1876:
             gf.alpha = 0.001;
     }
