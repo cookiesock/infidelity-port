@@ -1,15 +1,1 @@
-<!DOCTYPE codename-engine-character> <!-- made with inky's character editor -->
-<character x="-6" isGF="false" y="430" camx="-46" icon="hellholebf" camy="-61" scale="1.2" flipX="true" isPlayer="true" color="#7D808E" sprite="bf-satan">
-	<anim loop="false" x="-6" anim="BF idle dance" fps="24" y="-1" name="idle"/>
-	<anim loop="false" x="-29" anim="BF RIGHT" fps="24" y="-4" name="singRIGHT"/>
-	<anim loop="false" x="8" anim="BF DOWN" fps="24" y="-23" name="singDOWN"/>
-	<anim loop="false" x="-46" anim="BF UP" fps="24" y="16" name="singUP"/>
-	<anim loop="false" x="0" anim="BF LEFT" fps="24" y="5" name="singLEFT"/>
-	<anim loop="false" x="-18" anim="MISS RIGHT" fps="24" y="30" name="singRIGHTmiss"/>
-	<anim loop="false" x="17" anim="MISS DOWN" fps="24" y="20" name="singDOWNmiss"/>
-	<anim loop="false" x="-24" anim="MISS UP" fps="24" y="67" name="singUPmiss"/>
-	<anim loop="false" x="11" anim="MISS LEFT" fps="24" y="51" name="singLEFTmiss"/>
-	<anim loop="true" x="-6" anim="BF DEATH LOOP" fps="24" y="74" name="deathLoop"/>
-	<anim loop="false" x="-4" anim="BF DEATH CPNFIRM" fps="24" y="151" name="deathConfirm"/>
-	<anim loop="false" x="67" anim="BF DEATH FIRST" fps="24" y="93" name="firstDeath"/>
-</character>
+<character x="-7.31302521008403" icon="hellholebf" camx="-46" y="427.163865546218" isGF="false" scale="1.2" camy="-61" color="#7D808E" flipX="true" isPlayer="true" antialiasing="true" gameOverChar="bf-dead" holdTime="4" sprite="bf-satan"><anim x="-6" loop="false" y="-1" fps="24" anim="BF idle dance" name="idle"/><anim x="-24.7983193277311" loop="false" y="-6.10084033613445" fps="24" anim="BF RIGHT" name="singRIGHT"/><anim x="0.647058823529413" loop="false" y="-23" fps="24" anim="BF DOWN" name="singDOWN"/><anim x="-43.8991596638655" loop="false" y="12.8487394957983" fps="24" anim="BF UP" name="singUP"/><anim x="4.44089209850063e-16" loop="false" y="3.94957983193277" fps="24" anim="BF LEFT" name="singLEFT"/><anim x="-18" loop="false" y="30" fps="24" anim="MISS RIGHT" name="singRIGHTmiss"/><anim x="6.49579831932773" loop="false" y="21.0504201680672" fps="24" anim="MISS DOWN" name="singDOWNmiss"/><anim x="-26.1008403361345" loop="false" y="64.8991596638655" fps="24" anim="MISS UP" name="singUPmiss"/><anim x="8.89915966386555" loop="false" y="48.8991596638655" fps="24" anim="MISS LEFT" name="singLEFTmiss"/><anim x="-7.05042016806723" loop="true" y="74" fps="24" anim="BF DEATH LOOP" name="deathLoop"/><anim x="-9.25210084033613" loop="false" y="151" fps="24" anim="BF DEATH CPNFIRM" name="deathConfirm"/><anim x="67" loop="false" y="93" fps="24" anim="BF DEATH FIRST" name="firstDeath"/></character>

@@ -1,9 +1,1 @@
-<!DOCTYPE codename-engine-character> <!-- made with inky's character editor -->
-<character x="-150" y="70" camx="-354" icon="mouse" isGF="false" camy="-60" iconColor="#525951" scale="1" flipX="false" isPlayer="false" holdTime="4" gameOverChar="null" antialiasing="true" sprite="suicide" shake="true">
-	<anim loop="true" x="0" anim="Suicide Idle" fps="24" y="90" name="idle"/>
-	<anim loop="false" x="80" anim="Suicide Down" fps="24" y="28" name="singDOWN"/>
-	<anim loop="false" x="147" anim="Suicide Left" fps="24" y="149" name="singLEFT"/>
-	<anim loop="false" x="1" anim="Suicide Rigth" fps="24" y="143" name="singRIGHT"/>
-	<anim loop="false" x="-20" anim="Suicide Up" fps="24" y="162" name="singUP"/>
-	<anim loop="false" x="40" anim="Hit Mouse" fps="24" y="110" name="dodge"/>
-</character>
+<character shake="true" x="-147.584541062802" icon="mouse" camx="-354" y="94.1545893719808" isGF="false" scale="1" camy="-60" flipX="false" isPlayer="false" antialiasing="true" gameOverChar="null" holdTime="4" sprite="suicide"><anim x="0" loop="true" y="90" fps="24" anim="Suicide Idle" name="idle"/><anim x="80" loop="false" y="28" fps="24" anim="Suicide Down" name="singDOWN"/><anim x="147" loop="false" y="149" fps="24" anim="Suicide Left" name="singLEFT"/><anim x="1" loop="false" y="143" fps="24" anim="Suicide Rigth" name="singRIGHT"/><anim x="-20" loop="false" y="162" fps="24" anim="Suicide Up" name="singUP"/><anim x="40" loop="false" y="110" fps="24" anim="Hit Mouse" name="dodge"/></character>

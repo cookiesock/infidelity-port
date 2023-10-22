@@ -21,4 +21,25 @@ function stepHit()
             addCinematicBars(1, {ease: FlxEase.circIn, reverse: true});
         case 1876:
             gf.alpha = 0.001;
+        case 2384:
+            for (i in [scoreGroup, timeBar, timeBarBG, timeTxt])
+                FlxTween.tween(i, {alpha: 0.001}, 1.5);
+            addCinematicBars(1.5, {ease: FlxEase.circOut, size: 7});
+            cameraProperties.boyfriend.y += 30;
+            cameraProperties.dad.y += 30;
+        case 2896:
+            addCinematicBars(0.001, {ease: FlxEase.circIn, reverse: true});
+            cameraProperties.boyfriend.y -= 30;
+            cameraProperties.dad.y -= 30;
+        case 2912:
+            for (i in [scoreGroup, timeBar, timeBarBG, timeTxt])
+                FlxTween.tween(i, {alpha: 1}, 1);
+        case 3552:
+            for (i in [scoreGroup, timeBar, timeBarBG, timeTxt])
+                FlxTween.tween(i, {alpha: 0.001}, 1);
+            addCinematicBars(1, {ease: FlxEase.circOut, size: 7});
+            cameraProperties.boyfriend.y += 30;
+            cameraProperties.dad.y += 30;
+        case 3680: // IM GONNA CRY ITS SO SAD 😭
+            FlxTween.tween(camHUD, {alpha: 0.001}, 1.4);
     }

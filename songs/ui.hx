@@ -10,6 +10,10 @@ public var songTxt:FlxText;
 
 public var scoreGroup:FlxSpriteGroup;
 
+public var timeBarBG:FlxSprite;
+public var timeBar:FlxBar;
+public var timeTxt:FlxText;
+
 public var camBars:FlxCamera;
 public var bars:Array<FlxSprite> = [];
 
@@ -84,10 +88,8 @@ function postCreate() {
 	remove(missesTxt);
 	remove(accuracyTxt);
 
-	for (i in [healthBarBG, healthBar, iconP1, iconP2]) {
-		i.y -= 30;
-		i.cameras = [camHUD];
-	}
+	for (i in [healthBarBG, healthBar, iconP1, iconP2])
+		i.y -= 5;
 
 	comboRatings = [];
 
