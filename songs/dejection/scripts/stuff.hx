@@ -1,14 +1,8 @@
 import openfl.filters.ShaderFilter;
 
-public var shader:CustomShader;
 public var distortion:CustomShader;
 
 function postCreate() {
-	shader = new CustomShader('brightness-contrast');
-	shader.brightness = -0.25;
-	shader.contrast = 1.5625;
-	FlxG.camera.addShader(shader);
-
 	distortion = new CustomShader('distortion');
 	distortion.iTime = 0;
 	distortion.glitchModifier = 0.25;
@@ -21,6 +15,8 @@ function postCreate() {
 	distortion.effectMulti = 0.25;
 	distortion.iResolution = [FlxG.width, FlxG.height];
 	FlxG.camera.addShader(distortion);
+
+	camHUD.fade(0xFF000000, 0.001, false);
 }
 
 function shadertween(f) shader.contrast = f;
